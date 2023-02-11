@@ -66,3 +66,17 @@ window.onclick = function (event) {
     modal.style.display = 'none'
   }
 }
+
+// tooltip script
+const tooltips = document.querySelectorAll('.tooltip')
+
+tooltips.forEach((tooltip) => {
+  tooltip.addEventListener('mouseenter', function () {
+    this.querySelector('.tooltiptext').style.visibility = 'visible'
+    this.querySelector('.tooltiptext').style.opacity = '1'
+  })
+  tooltip.addEventListener('mouseleave', function () {
+    this.querySelector('.tooltiptext').style.visibility = 'hidden'
+    this.querySelector('.tooltiptext').style.opacity = '0'
+  })
+})
