@@ -319,6 +319,10 @@ footer p {
 .modal-box {
   position: relative;
   width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Modal Content */
