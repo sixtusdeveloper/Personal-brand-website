@@ -368,7 +368,7 @@ footer p {
   text-align: center;
   border-radius: 6px;
   border: 1px solid #b4becb;
-  padding: 10px 5px;
+  padding: 8px 4px;
   position: absolute;
   z-index: 1;
   top: 122%;
@@ -382,7 +382,8 @@ footer p {
   display: block;
   text-decoration: none;
   color: #333;
-  line-height: 1.7;
+  width: 100%;
+  position: relative;
   padding: 5px 0;
   font-size: 0.98rem;
   font-weight: normal;
