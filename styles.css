@@ -384,7 +384,6 @@ footer p {
   color: #333;
   width: 100%;
   position: relative;
-  padding: 5px 0;
   font-size: 0.98rem;
   font-weight: normal;
   transition: all 0.3s;
@@ -393,6 +392,7 @@ footer p {
 
 .tooltip .tooltiptext a:hover {
   background: #fff;
+  color: #047aed;
 }
 
 /*========================= Media query for styles ==============================*/
