@@ -37,5 +37,5 @@ function toggleContents() {
 
 let redirectURL = 'https://sixtusdevportfolio.netlify.app/#portfolio'
 function redirectURLIndex() {
-  window.location.replace(redirectURL)
+  window.open(redirectURL, '_blank')
 }
