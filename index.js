@@ -13,7 +13,7 @@ window.onscroll = () => {
   } else {
     stickyNavbar.style.backgroundColor = 'aliceblue'
     navbarContent.style.display = 'initial'
-    contents.classList.add('content_active')
+    contents.classList.remove('content_active')
   }
 }
 
