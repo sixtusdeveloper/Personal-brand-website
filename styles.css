@@ -363,19 +363,25 @@ footer p {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 150px;
   background-color: black;
-  color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  top: 125%;
   left: 50%;
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: normal;
 }
 
 /*========================= Media query for styles ==============================*/
