@@ -316,14 +316,13 @@ footer p {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
-
 /* Modal Content */
-.modal-content{
+.modal-content {
   background-color: #fefefe;
-  margin: auto;
+  margin: 0 auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 40%;
+  width: 30%;
   position: absolute;
   border-radius: 10px;
   top: 50%;
