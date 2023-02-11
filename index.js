@@ -1,19 +1,15 @@
 // let navbar = document.querySelector('header')
 const stickyNavbar = document.querySelector('#header')
-const navbarContent = document.querySelector('.right-items-mobile')
 
 window.onscroll = () => {
   if (window.scrollY > 50) {
     stickyNavbar.style.backgroundColor = '#fff'
     if (navbarContent.classList.contains('active')) {
       navbarContent.style.display = 'none'
-    } else if (contents.classList.contains('content_active')) {
-      contents.classList.remove('content_active')
     }
   } else {
     stickyNavbar.style.backgroundColor = 'aliceblue'
     navbarContent.style.display = 'initial'
-    contents.classList.add('content_active')
   }
 }
 
@@ -64,5 +60,17 @@ span.onclick = function () {
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = 'none'
+  }
+}
+
+const navbarContent = document.querySelector('.right-items-mobile')
+
+window.onscroll = () => {
+  if (window.scrollY > 60) {
+    if (contents.classList.contains('content_active')) {
+      contents.classList.remove('content_active')
+    }
+  } else {
+    contents.classList.add('content_active')
   }
 }
