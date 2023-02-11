@@ -383,6 +383,7 @@ footer p {
   text-decoration: none;
   color: #333;
   width: 100%;
+  padding: 5px 0;
   position: relative;
   font-size: 0.98rem;
   font-weight: normal;
