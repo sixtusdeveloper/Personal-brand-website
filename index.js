@@ -66,7 +66,7 @@ window.onclick = function (event) {
 const navbarContent = document.querySelector('.right-items-mobile')
 
 window.onscroll = () => {
-  if (window.scrollY > 60) {
+  if (window.scrollY > 50) {
     if (contents.classList.contains('content_active')) {
       contents.classList.remove('content_active')
     }
