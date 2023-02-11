@@ -316,6 +316,11 @@ footer p {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
+.modal-box {
+  position: relative;
+  width: 100%;
+}
+
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
@@ -326,7 +331,6 @@ footer p {
   position: absolute;
   border-radius: 10px;
   top: 50%;
-  width: 100%;
   left: 50%;
   transform: translate(-50% -50%);
   overflow: hidden;
