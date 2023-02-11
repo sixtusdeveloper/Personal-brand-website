@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: OverpassMono-Light
+font link: https://fonts.google.com/specimen/Overpass+Mono
+font author: Delve Withrington
+font author site: https://www.delvefonts.com/
+
+
+icon designer: Darin S
+icon designer link: /dsenneff
+        
+{"bg":"transparent","font":"#000000","icon-gradient-0":"#01695A","icon-gradient-1":"#2CC26F","slogan":"#141414"}
+      
