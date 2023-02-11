@@ -320,12 +320,8 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 50%;
+  position: relative;
   width: 100%;
-  left: 50%;
-  transform: translate(-50% -50%);
-  overflow: auto;
 }
 
 /* Modal Content */
@@ -335,9 +331,14 @@ footer p {
   padding: 20px;
   border: 1px solid #888;
   width: 40%;
+  position: absolute;
   border-radius: 10px;
-  height: 200px;
-  position: relative;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50% -50%);
+  overflow: auto;
+  /* height: 200px; */
 }
 
 /* The Close Button */
