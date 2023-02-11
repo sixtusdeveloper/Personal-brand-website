@@ -364,10 +364,11 @@ footer p {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 150px;
-  background-color: black;
+  background-color: #f4f4f4;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  border: 1px solid #b4becb;
+  padding: 10px 5px;
   position: absolute;
   z-index: 1;
   top: 123%;
@@ -380,6 +381,8 @@ footer p {
 .tooltip .tooltiptext a {
   text-decoration: none;
   color: #fff;
+  line-height: 1.7;
+  padding: 5px 0;
   font-size: 0.95rem;
   font-weight: normal;
 }
