@@ -316,16 +316,9 @@ footer p {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
-.modal-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-}
 
 /* Modal Content */
-.modal-content .modal-items {
+.modal-content{
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
@@ -338,7 +331,6 @@ footer p {
   left: 50%;
   transform: translate(-50% -50%);
   overflow: auto;
-  /* height: 200px; */
 }
 
 /* The Close Button */
