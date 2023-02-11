@@ -4,12 +4,12 @@ const stickyNavbar = document.querySelector('#header')
 window.onscroll = () => {
   if (window.scrollY > 50) {
     stickyNavbar.style.backgroundColor = '#fff'
-    if (navbarContent.classList.contains('active')) {
-      navbarContent.style.display = 'none'
-    }
+    // if (navbarContent.classList.contains('active')) {
+    //   navbarContent.style.display = 'none'
+    // }
   } else {
     stickyNavbar.style.backgroundColor = 'aliceblue'
-    navbarContent.style.display = 'initial'
+    // navbarContent.style.display = 'initial'
   }
 }
 
