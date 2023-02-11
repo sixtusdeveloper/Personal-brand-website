@@ -379,12 +379,19 @@ footer p {
 }
 
 .tooltip .tooltiptext a {
+  display: block;
   text-decoration: none;
   color: #333;
   line-height: 1.7;
   padding: 5px 0;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   font-weight: normal;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext a:hover {
+  background: #fff;
 }
 
 /*========================= Media query for styles ==============================*/
