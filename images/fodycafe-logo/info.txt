@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Arvo-Regular
+font link: https://fonts.google.com/specimen/Arvo
+font author: Anton Koovit
+font author site: http://files.korkork.com/
+
+
+icon designer: Gabriele Garofalo
+icon designer link: /Gabriele Garofalo
+        
+{"bg":"#01252C","font":"#FFFFFF","icon":"#88DF95","slogan":"#ffffff"}
+      

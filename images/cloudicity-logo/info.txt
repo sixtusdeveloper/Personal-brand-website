@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: DroidSerif-Bold
+font link: https://www.fontsquirrel.com/fonts/droid-serif
+font author: Steve Matteson
+font author site: https://twitter.com/@SteveMatteson1
+
+
+icon designer: Safwan Erooth
+icon designer link: /esafwan
+        
+{"bg":"#085429","font":"#FFFFFF","icon":"#39C643","slogan":"#ffffff"}
+      

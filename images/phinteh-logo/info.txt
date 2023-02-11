@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Gabriela-Regular
+font link: https://fonts.google.com/specimen/Gabriela
+font author: Eduardo Tunni
+font author site: http://www.tipo.net.ar/
+
+
+icon designer: Liau Jian Jie
+icon designer link: /jianjie
+        
+{"bg":"#DFE9EC","font":"#12292A","icon-gradient-0":"#122663","icon-gradient-1":"#5DD7AD","slogan":"#263d3e"}
+      
