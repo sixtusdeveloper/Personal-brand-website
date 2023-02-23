@@ -398,6 +398,9 @@ footer p {
 
 /*========================= Media query for styles ==============================*/
 @media only screen and (max-width: 689px) {
+  main {
+    margin-top: 3rem;
+  }
   .right-items-mobile {
     display: flex;
     flex-direction: column !important;
