@@ -100,12 +100,16 @@ main {
   margin: 0 auto;
 }
 
-.title h1 {
+.welcome {
   text-align: center;
   padding: 1rem 0;
   color: #fff;
-  font-size: 3rem;
+  font-size: clamp(3.5rem, 2.2vw + 1rem, 2rem);
   font-weight: bold;
+}
+
+.welcome span {
+  color: lightseagreen;
 }
 
 .title p {
