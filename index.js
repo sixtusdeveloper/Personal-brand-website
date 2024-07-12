@@ -35,7 +35,7 @@ function toggleContents() {
   contents.classList.toggle('content_active')
 }
 
-let redirectURL = 'https://sixtusdevportfolio.netlify.app/#portfolio'
+let redirectURL = 'https://frontend-portfolio-website-liart.vercel.app/'
 function redirectURLIndex() {
   window.open(redirectURL, '_blank')
 }
